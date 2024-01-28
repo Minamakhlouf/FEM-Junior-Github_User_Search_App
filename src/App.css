@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap'); 
+
+.app {
+  padding: 31px 24px 79px; 
+}
+
+#dark {
+  background-color: #141d2f;
+  transition: all 0.2s ease-in-out; 
+}
+
+#light {
+  background-color: #f6f8ff;
+  transition: all 0.2s ease-in-out; 
+}
+
+@media screen and (min-width: 625px) {
+  .app {
+      padding: 149px 25px 236px; 
+  }
+}
+
+@media screen and (min-width: 780px) {
+  .app {
+      padding: 144px 25px; 
+  }
+}
+
